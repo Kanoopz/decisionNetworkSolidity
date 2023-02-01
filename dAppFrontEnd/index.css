@@ -1,0 +1,11 @@
+#generalWrapper
+{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#internalSideBar
+{
+  width: 230px;
+  display: flex;
+}
