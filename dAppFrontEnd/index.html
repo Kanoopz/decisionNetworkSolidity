@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!--////////////////////"generalView"////////////////////-->
+<!--
+head
+  div titleDiv
+body
+  header
+    div projectNameDiv
+    div unsSectionDiv
+    div walletSectionDiv
+      div walletDiv
+    div multiSectionsDiv
+  main
+    div mainDiv
+      div generalWrapperDiv
+        div internalSideBarDiv
+          div proposalDivComponent
+        div verticalDividerDiv
+          div createPostComponentsDiv
+            div makePostSection
+            div makeProposalPostDiv
+            div postButtonDiv
+          div feedDiv
+          div divPostsSection
+-->
+
+<html>
+  <head>
+    <div id="titleDiv">
+      <title>decisionNetwork</title>
+    </div>
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <header>
+      <div id="projectNameDiv" style="padding-left: 30px">
+        <h1>decisionNetwork</h1>
+      </div>
+
+      <div id="unsSectionDiv">
+        <span>
+          <input id="unsInput" type="text"></input>
+
+          <button id="unsButton"></button>
+        </span>
+      </div>
+
+      <div id="walletSectionDiv">
+        <div id="walletDiv" style="text-align: right;padding-right: 30px">
+          <p id="balanceP"></>
+        </div>
+
+        <br>
+      </div>
+
+      <div id="multiSectionsDiv" style="text-align: left;padding-left: 55px">
+        <span>
+          <h2>
+            <u> <a href="#">USER</a> &nbsp</u>
+
+            <u>&nbsp <a href="#">myInteractions</a> &nbsp</u>
+
+            <u>&nbsp <a href="#">myProposals</a> &nbsp</u>
+
+            <u>&nbsp <a href="#">myVotes</a> </u>
+          </h2>
+        </span>
+      </div>
+
+      <div>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+    </header>
+
+    <main>
+      <div id="mainDiv">
+        <div id="generalWrapper">
+          <div id="internalSideBar">
+            <div id="proposalDivComponent">
+            </div>
+          </div>
+
+          <div id="verticalDividerDiv">
+            <div id="createPostComponentsDiv">
+              <h3 style="padding-left: 750px">CREATE POST</h3>
+
+              <div id="makePostSection" style="padding-left: 550px;padding-right: 80px;">
+                <textarea id="postTextarea"  rows="13" cols="70"></textarea>
+              </div>
+
+              <div id="makeProposalPostDiv" style="padding-left: 580px">
+                <span>
+                  <p>MAKE PROPOSAL POST</p>
+
+                  <input id="proposalCheck" type="checkbox"/>
+                </span>
+              </div>
+
+              <div id="postButtonDiv" style="padding-left: 770px">
+                <button id="postButton">POSTEAR</button>
+              </div>
+            </div>
+
+            </br>
+            </br>
+
+            <div id="feedDiv">
+              <h1>FEED</h1>
+
+              ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            </div>
+
+            <div id="divPostsSection">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  <script src="index.js"></script>
+</html>
